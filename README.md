@@ -5,7 +5,7 @@ _Extract_ fonts (`.woff`) encoded into base64 format from _css_ files.
 
 `make_woff.sh` - Converts all the _base64_ files in _**/encoded**_ directory into `.woff` font files.
 
-####Optional
+### Optional
 Use [Woff2Otf](https://github.com/hanikesn/woff2otf) tool by [hanikesn](https://github.com/hanikesn/) to convert `.woff` files to `.otf`
 
 ###### Make Sure Both the files are in parent directory.
