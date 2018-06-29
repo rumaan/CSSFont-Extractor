@@ -6,6 +6,7 @@ do
     # Convert the base64 text into WOFF format
     echo "Converting $filename to ${filename:0:2}woff"
     base64 -D $filename > "${filename:0:2}woff"
+    # OPTIONAL
     # Convert the WOFF font to OTF using woff2Otf tool
     chmod u+x woff2otf.py
     ./woff2otf.py ${filename:0:2}woff ${filename:0:2}otf

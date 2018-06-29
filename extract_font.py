@@ -1,6 +1,7 @@
 import re
 
-file = open('cssfile.txt', 'r')
+# Put your css file here
+file = open('cssfile.css', 'r')
 
 base64lines = []
 
