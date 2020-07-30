@@ -17,11 +17,11 @@ Clone this git (or download then extract), then:
 ```bash
 bash make_woff.sh FILE1.CSS [FILE2.CSS...]
 ```
-<br/>
+<br>
 
 #### Extra
-<br/>
-*TO-DOs* are mentioned in the individual files. PR's and issues are welcome!😊 . 
 <br>
-_**Note**: All this can be done easily using Chrome Dev Tools from Network Tab and saving base64 files into binary files as mentioned [here](https://stackoverflow.com/a/31854648/9540400)._
-😉😉
+
+*TO-DOs* are mentioned in the individual files. PR's and issues are welcome! 😊
+
+_**Note**: All this can be done easily using Chrome Dev Tools from Network Tab and saving base64 files into binary files as mentioned [here](https://stackoverflow.com/a/31854648/9540400)._ 😉😉
