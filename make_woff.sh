@@ -8,7 +8,7 @@ EXTRACTFONT="extract_font.py"
 WOFF2OTF="woff2otf.py"
 
 download() {
-	printf "Downloading WOFF to OTF converter from GitHub…"
+	printf "Downloading WOFF to OTF converter from GitHub…\n"
 	curl -sLS "$GITURL/$WOFF2OTF?raw=true" --output "$OUTPUTDIR/$WOFF2OTF"
 }
 
