@@ -3,13 +3,17 @@ _Extract_ fonts (`.woff`) encoded into base64 format from _CSS_ files.
 
 **`make_woff.sh`** - It gets one ore more CSS files as arguments, calls `extract_font.py` to extract the _base64_ strings as `.txt` files in _**./output**_ directory and converts them into `.woff` font files.
 
-**`extract_font.py`** - Extracts _base64_ lines from CSS files and saves them into individual `.txt` files inside _**./output**_ directory. It tries to retrieve font name, weight and style from the CSS file and use this info for the file names generated in the format _[NAME\_WEIGHT\_STYLE\_]NUMBER.woff_.
+**`extract_font.py`** - Extracts _base64_ lines from CSS files and saves them into individual `.txt` files inside _**./output**_ directory. It tries to retrieve font name, weight and style from the CSS file and use this info for the file names generated in the format _[NAME\_WEIGHT\_STYLE\_]NUMBER.txt_.
 
 ### Optional
 Use [Woff2Otf](https://github.com/hanikesn/woff2otf) tool by [hanikesn](https://github.com/hanikesn/) to convert `.woff` files to `.otf` (the file is downloaded from GitHub on demand using `curl`, coverting to OTF is skipped if the file is not found).
 
 ### Requirements
-bash & Python 3: It should run without problems on Linux or macOS, please report any issues.
+- bash
+- curl
+- Python 3
+
+All should be pre-installed by default, and it should run without problems on Linux and macOS, please report any issues.
 
 ### How to run
 Clone this git (or download then extract), then:
